@@ -1,0 +1,53 @@
+/* Additional CSS for search page */
+.search-section {
+  position: relative;
+  height: 300px;
+  background-color: #56bc17; /* Tailwind's teal-500 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search-section h3 {
+  font-size: 2.25rem; /* text-6xl */
+  color: #111827; /* Tailwind's gray-900 */
+  margin-bottom: 0.5rem;
+  font-weight: 600; /* font-semibold */
+}
+
+.search-section p {
+  font-size: 1.125rem; /* text-lg */
+  color: #ffffff; /* text-white */
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #d1d5db; /* Tailwind's gray-300 */
+  border-radius: 0.375rem; /* rounded-md */
+  outline: none;
+}
+
+.search-bar button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: orange; /* Warna latar belakang saat normal */
+  border: 1px solid orange; /* Warna border saat normal */
+  border-radius: 0.375rem; /* Bulatan sudut */
+  margin-left: 2px;
+}
+
+.search-bar button:hover {
+  background-color: white; /* Warna latar belakang saat dihover */
+  color: orange; /* Warna teks saat dihover */
+  cursor: pointer; /* Ubah kursor menjadi pointer saat dihover */
+}
